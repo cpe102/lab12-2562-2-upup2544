@@ -35,8 +35,8 @@ for(int i=0;i<N;i++){
 
 void showImage(const bool img[][M]){
 
-for(int i=0;i<M+1;i++){
-cout<<"_";
+for(int i=0;i<M+2;i++){
+cout<<"-";
 }
 cout<<"\n";
 for(int i=0;i<N;i++){
@@ -48,7 +48,7 @@ for(int j=0;j<M;j++){
 }cout<<"|";
 cout<<"\n";
 }
-for(int i=0;i<M+1;i++){
+for(int i=0;i<M+2;i++){
 cout<<"-";
 }cout<<"\n";
 }
